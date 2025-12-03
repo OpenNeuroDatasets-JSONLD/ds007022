@@ -30,7 +30,16 @@ Functional data are nested within session directories and contain one time-serie
 
 Behavioural data includes an `*_events.tsv` file per participant per behavioural task (n-back, Stroop Task). Sidecar files (`task-n_back.json`, `task-Stroop.json`), which describe the contents of these files, are located in the dataset root directory. 
 
-## Task description:
+## Time-points
+* ses-pre: one week before the onset of training
+* ses-0: at the onset of training
+* ses-1: after one week of training
+* ses-2: after six weeks of training
+* ses-3: after 13 weeks, halfway through training 
+* ses-4: at the end of training
+* ses-5: after a follow-up period (about 2-3 months)
+
+## Task description
 ### N-back
 This visual n-back task was based on the n-back task available in the Presentation software. The task presented participants with single letters at three difficulty levels: 1-back, 2-back, and 3-back. Participants observed sequences of individual letters and were instructed to press a button whenever the currently displayed letter matched the one shown n steps earlier in the sequence. Each block contained 50 trials, comprising 10 target trials and 40 control trials. During each trial, a stimulus appeared on the screen for 500 ms, followed by a 1000 ms inter-trial interval displaying an empty screen. Before the main experiment, participants completed a practice session of 8 trials for each difficulty level.
 
