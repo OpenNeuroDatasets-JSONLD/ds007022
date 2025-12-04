@@ -1,0 +1,40 @@
+{
+  "condition": {
+    "Description": "Type of tactile Braille task performed by the participant. Both conditions involve tactile reading of Braille; they differ in the decision rule applied.",
+    "Levels": {
+      "LEXICAL_DECISION": "Participant decides whether the Braille character string presented on the line is a real word or a pseudoword.",
+      "6_DOT_DETECTION": "Participant decides whether the presented Braille character string contains at least one full six-dot Braille cell."
+    }
+  },
+  "trial_type": {
+    "Description": "Category of the trial presented to the participant.",
+    "Levels": {
+      "CUE": "Instruction screen informing the participant about the upcoming task.",
+      "FIXCROSS": "Fixation cross display on the screen; no stimuli were presented and the participant remained passive.",
+      "PSEUDOWORD": "A Braille character string corresponding to a pseudoword was presented.",
+      "WORD": "A Braille character string corresponding to a real word was presented.",
+      "NO_6-DOT": "The presented Braille character string did not contain a full six-dot cell.",
+      "6-DOT": "The presented Braille character string contained at least one full six-dot cell.",
+      "RESPONSE": "Event marking the participant’s response indicating their lexical decision or detection of a full six-dot cell."
+    }
+  },
+  "braille_stimulus": {
+    "Description": "Sequence of Braille characters presented to the participant, encoded in six-dot Braille notation. The symbol '#' denotes a Braille cell with all six dots raised (full cell)."
+  },
+  "response_val": {
+    "Description": "Type of response given by the participant in the current task condition.",
+    "Levels": {
+      "YES": "In the LEXICAL_DECISION task, indicates that the participant judged the character string as a real word; in the 6_DOT_DETECTION task, indicates that the participant judged that the string contained at least one full six-dot cell.",
+      "NO": "In the LEXICAL_DECISION task, indicates that the participant judged the character string as a pseudoword; in the 6_DOT_DETECTION task, indicates that the participant judged that the string did not contain a full six-dot cell."
+    }
+  },
+  "response_type": {
+    "Description": "Outcome of the participant’s response in relation to the presented stimulus.",
+    "Levels": {
+      "HIT": "Correct detection of a target: in LEXICAL_DECISION, a real word was correctly identified as a word; in 6_DOT_DETECTION, a string containing a full six-dot cell was correctly judged as containing one.",
+      "CORRECT_REJECTION": "Participant correctly indicated the absence of a target: in LEXICAL_DECISION, a pseudoword was correctly identified as not a word; in 6_DOT_DETECTION, a string without a full six-dot cell was correctly judged as not containing one.",
+      "FALSE_ALARM": "Participant indicated the presence of a target when none was present: in LEXICAL_DECISION, a pseudoword was incorrectly classified as a word; in 6_DOT_DETECTION, a string without a full six-dot cell was incorrectly judged as containing one.",
+      "MISS": "Participant failed to respond correctly when a target was present (e.g., a real word or a string containing a full six-dot cell)."
+    }
+  }
+}
