@@ -1,0 +1,13 @@
+{
+  "trial_type": {
+    "Description": "Category of the trial presented to the participant.",
+    "Levels": {
+      "FIXCROSS": "Fixation cross display; no stimuli were presented and the participant remained passive.",
+      "CUE_LEFT": "Instruction screen informing the participant to prepare for the tapping task with the left hand; the task starts after this cue.",
+      "LEFT": "Event during which the participant performed the tapping task using the left hand according to the instructions.",
+      "CUE_RIGHT": "Instruction screen informing the participant to prepare for the tapping task with the right hand; the task starts after this cue.",
+      "RIGHT": "Event during which the participant performed the tapping task using the right hand according to the instructions.",
+      "FINISHED": "Instruction screen informing the participant that the task has ended."
+    }
+  }
+}

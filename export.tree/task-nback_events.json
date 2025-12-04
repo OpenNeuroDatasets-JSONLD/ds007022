@@ -1,0 +1,34 @@
+{
+  "trial_type": {
+    "Description": "Category of the trial presented to the participant.",
+    "Levels": {
+      "RESPONSE": "Event marking the participant’s behavioral response, indicating whether they judged the current stimulus as matching the one presented n trials earlier.",
+      "ISI": "Inter-stimulus interval during which no stimulus was presented.",
+      "DISTRACTOR": "Non-target stimulus that does not meet the n-back matching criterion.",
+      "TARGET": "Stimulus that matches the item presented n trials earlier, requiring a response."
+    }
+  },
+  "n_back_condition": {
+    "Description": "The working-memory load condition defined by the number of trials back (n) the participant must recall to determine whether the current stimulus is a match.",
+    "Levels": {
+      "1": "1-back condition, requiring the participant to compare the current stimulus with the one presented exactly one trial earlier.",
+      "2": "2-back condition, requiring the participant to compare the current stimulus with the one presented two trials earlier.",
+      "3": "3-back condition, requiring the participant to compare the current stimulus with the one presented three trials earlier."
+    }
+  },
+  "trial_number": {
+    "Description": "Index of the trial within the task (starting from 1)."
+  },
+  "stimulus": {
+    "Description": "The item (e.g., letter) presented during the trial of the n-back task."
+  },
+  "response_type": {
+    "Description": "Classification of the participant’s behavioral response relative to the expected response determined by the n-back rule.",
+    "Levels": {
+      "Correct Rejection": "Participant correctly withheld a response to a non-target stimulus.",
+      "Hit": "Participant correctly responded to a target stimulus.",
+      "False Alarm": "Participant incorrectly responded to a non-target stimulus.",
+      "Miss": "Participant failed to respond to a target stimulus."
+    }
+  }
+}
