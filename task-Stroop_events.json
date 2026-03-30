@@ -45,5 +45,31 @@
   },
   "response_color" : {
     "Description" : "Color indicated by the participant as their response."
-  }
+  },
+  "TaskName" : "Stroop task",
+  "CogAtlasID" : "https://www.cognitiveatlas.org/id/tsk_4a57abb949e27",
+  "TaskDescription" : "The task was based on the Stroop task available in the Presentation software. It consisted of two distinct block types: ink blocks and colour name blocks. In the ink blocks, participants were instructed to identify the ink colour of the presented stimuli. In contrast, during colour name blocks, the participant’s task was to identify the written colour name itself. Stimuli were presented using four target colours (red, green, blue, or yellow). Control stimuli in ink blocks consisted of strings of Xs instead of words, whereas control stimuli in colour name blocks were written in black ink. The experiment comprised six blocks in total—three ink blocks and three colour name blocks—presented alternately. Each block consisted of 72 trials, evenly divided into incongruent and neutral conditions. Individual trials began with a fixation cross displayed for 500 ms, followed by the stimulus presented until a response was given or until a maximum duration of 5000 ms elapsed. Trials were separated by an empty inter-trial interval of 1000 ms. Before the main experimental phase, participants completed a practice run containing 12 trials per block type, during which feedback was provided.",
+  "Instructions" : "The instructions were delivered in Polish; the text below is a translation. Ink Instructions: In this part of the experiment, your task is to identify the color of the letters in the word displayed on the screen. In each trial, a word will appear in the center of the screen in one of four possible colors. Your task is to identify the color and press the corresponding button. Be careful: sometimes the displayed words will themselves name a color. Always ignore the meaning of the words. Your only task is to recognize the COLOR of the letters presented (not their meaning). The sequence of events in a single trial will be as follows: a small fixation cross will appear in the center of the screen; after a short pause, letters will appear on the screen. As quickly as you can, identify the COLOR of the letters presented: If the color is red, press the red button. If the color is green, press the green button. If the color is blue, press the blue button. If the color is yellow, press the yellow button. When you are ready, press the middle button to begin. Complete a few practice trials first. Color name Instructions: In this part of the experiment, your task will be to identify the meaning of the WORD. In each trial, you will see in the center of the screen a word naming a color. Your task is to identify which color the word refers to and press the corresponding button on the keypad. Be careful: sometimes the words may be presented in different colors. Always ignore the color in which the word is displayed. Your only task is to identify the meaning of the word formed by the letters. The sequence of events in a single trial will be as follows: a small fixation cross will appear in the center of the screen; after a short pause, letters will appear on the screen. As quickly as you can, identify the meaning of the WORD. If the word is red, press the red button. If the word is green, press the green button. If the word is blue, press the blue button. If the word is yellow, press the yellow button. When you are ready, press the middle button to begin.",
+  "StimulusPresentation" : {
+    "OperatingSystem" : "Windows 10 Pro ",
+    "ScreenOrigin" : [
+      "center",
+      "center"
+    ],
+    "ScreenRefreshRate" : 60,
+    "ScreenResolution" : [
+      1920,
+      1080
+    ],
+    "ScreenSize" : [
+      0.596,
+      0.335
+    ],
+    "SoftwareName" : "Presentation",
+    "SoftwareRRID" : "RRID:SCR_002521",
+    "SoftwareVersion" : "v 23.1 build 09.29.22"
+  },
+  "InstitutionName" : "Nencki Institute of Experimental Biology PAS",
+  "InstitutionalDepartmentName" : "Laboratory of Brain Imaging",
+  "InstitutionAddress" : "3 Pasteur street, 02-093 Warsaw, Poland"
 }
